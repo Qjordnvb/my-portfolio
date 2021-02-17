@@ -1,0 +1,61 @@
+.container-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  transform: translate(-50%, -50%);
+  margin-left: 50%;
+  width: 100%;
+}
+
+.btn-animation {
+  margin-top: calc(50% + 25px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 277px;
+  height: 50px;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 1rem;
+  letter-spacing: 0.045em;
+}
+
+.btn-animation svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.btn-animation svg rect {
+  stroke: linear-gradient(to right, #6925f0, #bc77f8);
+  stroke-width: 4;
+  stroke-dasharray: 353, 0;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.btn-animation span {
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(left, rgb(255, 252, 252) 0%, rgb(243, 241, 243) 100%);
+  background: -webkit-linear-gradient(left, rgb(255, 255, 255) 0%, rgb(246, 244, 247) 100%);
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 253, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6925f0', endColorstr='#bc77f8',GradientType=1 );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-animation:hover svg rect {
+  stroke-width: 4;
+  stroke-dasharray: 196, 543;
+  stroke-dashoffset: 437;
+}

@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "html.format.wrapLineLength": 60,
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "prettier.useTabs": true
+}
